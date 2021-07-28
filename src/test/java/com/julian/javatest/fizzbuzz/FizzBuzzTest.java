@@ -9,7 +9,6 @@ import static org.junit.Assert.*;
 public class FizzBuzzTest {
     @Test
     public void return_fizz_if_is_divisible_for_3() {
-
         assertThat( FizzBuzz.fizzBuzz(3), is("Fizz") );
     }
 
